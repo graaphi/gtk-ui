@@ -1,5 +1,5 @@
 <p>
-  <img alt="gtk-ui" width="300" src="https://raw.githubusercontent.com/graaphi/gtk-ui/master/gtk-ui-logo.png" /><br />
+  <img alt="gtk-ui" width="250" src="https://raw.githubusercontent.com/graaphi/gtk-ui/master/gtk-ui-logo.png" /><br />
   Custom CSS rules for customizing GTK-based applications and make beautiful graphic user interfaces.
 </p>
 
