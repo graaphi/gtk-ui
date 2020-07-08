@@ -1,0 +1,12 @@
+{
+  "name": "gtk-ui",
+  "version": "0.1.0",
+  "description": "Custom CSS rules for customizing GTK-based applications",
+  "scripts": {
+    "css:build": "sass _sass/gtk-ui.scss build/gtk-ui.css",
+    "css:watch": "sass --watch _sass/gtk-ui.scss build/gtk-ui.css"
+  },
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
