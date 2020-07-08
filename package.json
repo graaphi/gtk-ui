@@ -3,13 +3,21 @@
   "version": "0.1.0",
   "description": "Custom CSS rules for customizing GTK-based applications",
   "scripts": {
+    "start": "yarn docs:serve",
+    "docs:serve": "./node_modules/.bin/gatsby develop",
     "css:build": "sass _sass/gtk-ui.scss build/gtk-ui.css",
     "css:watch": "sass --watch _sass/gtk-ui.scss build/gtk-ui.css",
     "css:lint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache"
   },
   "dependencies": {
+    "gatsby": "^2.23.22",
+    "gatsby-cli": "^2.12.59",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-refresh": "^0.8.3",
     "sass": "^1.26.10",
-    "stylelint": "^13.6.1"
+    "stylelint": "^13.6.1",
+    "typescript": "^3.9.6"
   },
   "files": [
     "dist/*.{css,map}",
