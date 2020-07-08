@@ -10,5 +10,9 @@
   "dependencies": {
     "sass": "^1.26.10",
     "stylelint": "^13.6.1"
-  }
+  },
+  "files": [
+    "dist/*.{css,map}",
+    "scss/**/*.scss"
+  ]
 }
