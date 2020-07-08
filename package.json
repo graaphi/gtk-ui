@@ -1,5 +1,5 @@
 {
-  "name": "gtk-ui",
+  "name": "@graaphi/gtk-ui",
   "version": "0.1.0",
   "description": "Custom CSS rules for customizing GTK-based applications",
   "scripts": {
