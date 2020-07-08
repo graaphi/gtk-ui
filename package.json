@@ -4,9 +4,11 @@
   "description": "Custom CSS rules for customizing GTK-based applications",
   "scripts": {
     "css:build": "sass _sass/gtk-ui.scss build/gtk-ui.css",
-    "css:watch": "sass --watch _sass/gtk-ui.scss build/gtk-ui.css"
+    "css:watch": "sass --watch _sass/gtk-ui.scss build/gtk-ui.css",
+    "css:lint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache"
   },
   "dependencies": {
-    "sass": "^1.26.10"
+    "sass": "^1.26.10",
+    "stylelint": "^13.6.1"
   }
 }
