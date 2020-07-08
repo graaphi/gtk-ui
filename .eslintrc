@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "import/no-extraneous-dependencies": 0,
+    "template-curly-spacing" : "off",
+    "indent" : "off",
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }]
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb"
+  ]
+}
