@@ -3,6 +3,15 @@
 $utilities: () !default;
 
 $utilities: map-merge(
-  (),
+  (
+    "background-color": (
+      property: background-color,
+      class: bg,
+      values: map-merge(
+        $colors,
+        $theme-colors,
+      )
+    ),
+  ),
   $utilities
 );
