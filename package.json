@@ -9,8 +9,8 @@
     "docs:build": "yarn docs:clean && STAGE=production ./node_modules/.bin/gatsby build --prefix-paths",
     "css:build": "sass sass/gtk-ui.scss build/gtk-ui.css",
     "css:watch": "sass --watch sass/gtk-ui.scss build/gtk-ui.css",
-    "css:lint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache",
-    "css:lint:fix": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --fix"
+    "css:lint": "stylelint \"sass/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache",
+    "css:lint:fix": "stylelint \"sass/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --fix"
   },
   "dependencies": {
     "@babel/core": "^7.10.4",
