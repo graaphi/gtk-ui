@@ -5,16 +5,12 @@
   ],
   "rules": {
     "declaration-empty-line-before": null,
+    "at-rule-empty-line-before": null,
     "at-rule-no-unknown": [true, {
       "ignoreAtRules": [
         "function", "if", "each", "include", "mixin"
       ]
     }],
-    "at-rule-empty-line-before": [
-      "always", {
-        "ignoreAtRules": [ "else" ]
-      }
-    ],
     "block-opening-brace-space-before": "always",
     "block-closing-brace-newline-after": [
       "always", {
