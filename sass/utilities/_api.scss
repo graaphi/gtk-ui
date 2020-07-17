@@ -1,0 +1,7 @@
+// Loop over each utility property
+@each $key, $utility in $utilities {
+  // The utility can be disabled with `false`, thus check if the utility is a map first
+  @if type-of($utility) == "map" {
+    @include generate-utility($utility);
+  }
+}
