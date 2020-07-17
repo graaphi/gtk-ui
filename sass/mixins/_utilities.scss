@@ -23,9 +23,10 @@
     $property-class-modifier: if($key, if($property-class == "", "", "-") + $key, "");
 
     @if $value != null {
-      .#{$property-class + $infix + $property-class-modifier} {
+
+      .#{$property-class + $property-class-modifier} {
         @each $property in $properties {
-          #{$property}: $value if($enable-important-utilities, !important, null);
+          #{$property}: $value;
         }
       }
     }
