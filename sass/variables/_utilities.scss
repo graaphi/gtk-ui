@@ -20,6 +20,14 @@ $utilities: map-merge(
         $theme-colors,
       )
     ),
+    "border-color": (
+      property: border-color,
+      class: border,
+      values: map-merge(
+        $colors,
+        $theme-colors,
+      )
+    ),
   ),
   $utilities
 );
