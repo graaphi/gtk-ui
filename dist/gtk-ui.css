@@ -2846,62 +2846,6 @@
   font-size: 4rem
 }
 
-.min-h-0 {
-  min-height: 0
-}
-
-.min-h-full {
-  min-height: 100%
-}
-
-.min-h-screen {
-  min-height: 100vh
-}
-
-.min-w-0 {
-  min-width: 0
-}
-
-.min-w-full {
-  min-width: 100%
-}
-
-.overscroll-auto {
-  overscroll-behavior: auto
-}
-
-.overscroll-contain {
-  overscroll-behavior: contain
-}
-
-.overscroll-none {
-  overscroll-behavior: none
-}
-
-.overscroll-y-auto {
-  overscroll-behavior-y: auto
-}
-
-.overscroll-y-contain {
-  overscroll-behavior-y: contain
-}
-
-.overscroll-y-none {
-  overscroll-behavior-y: none
-}
-
-.overscroll-x-auto {
-  overscroll-behavior-x: auto
-}
-
-.overscroll-x-contain {
-  overscroll-behavior-x: contain
-}
-
-.overscroll-x-none {
-  overscroll-behavior-x: none
-}
-
 .p-0 {
   padding: 0
 }
