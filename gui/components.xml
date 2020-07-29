@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.22.1 -->
+<!-- Generated with glade 3.22.2 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
   <object class="GtkMenu" id="account-menu">
@@ -1050,28 +1050,13 @@
                                 <property name="can_focus">False</property>
                                 <child>
                                   <object class="GtkButton">
-                                    <property name="label" translatable="yes">Add money</property>
-                                    <property name="visible">True</property>
-                                    <property name="can_focus">True</property>
-                                    <property name="receives_default">True</property>
-                                    <style>
-                                      <class name="btn-primary-md"/>
-                                    </style>
-                                  </object>
-                                  <packing>
-                                    <property name="expand">False</property>
-                                    <property name="fill">True</property>
-                                    <property name="position">0</property>
-                                  </packing>
-                                </child>
-                                <child>
-                                  <object class="GtkButton">
                                     <property name="label" translatable="yes">Send money</property>
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="receives_default">True</property>
+                                    <property name="margin_right">10</property>
                                     <style>
-                                      <class name="btn"/>
+                                      <class name="btn-outline"/>
                                     </style>
                                   </object>
                                   <packing>
@@ -1080,6 +1065,25 @@
                                     <property name="position">1</property>
                                   </packing>
                                 </child>
+                                <child>
+                                  <object class="GtkButton">
+                                    <property name="label" translatable="yes">Add money</property>
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="receives_default">True</property>
+                                    <style>
+                                      <class name="btn-primary"/>
+                                    </style>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">2</property>
+                                  </packing>
+                                </child>
+                                <style>
+                                  <class name="py-2"/>
+                                </style>
                               </object>
                               <packing>
                                 <property name="expand">False</property>

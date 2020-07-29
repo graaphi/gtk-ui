@@ -46,6 +46,15 @@
   border: none;
 }
 
+.btn-core-outline {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
 .btn-core-md {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -65,15 +74,22 @@
   border: none;
 }
 
+.btn:hover {
+  background: #edf2f7;
+  color: #000;
+}
+
+.btn:focus {
+  background: #cbd5e0;
+  color: #000;
+  box-shadow: none;
+}
+
 .btn-md {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.btn-rounded {
-  border-radius: 0.25rem;
 }
 
 .btn-rounded-full {
@@ -88,9 +104,17 @@
   font-weight: 500;
   font-size: 1rem;
   border: none;
-  background: #285e61;
+  background: #2c7a7b;
   color: #fff;
   font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background: #319795;
+}
+
+.btn-primary:focus {
+  background: #285e61;
 }
 
 .btn-primary-md {
@@ -101,13 +125,39 @@
   font-weight: 500;
   font-size: 1rem;
   border: none;
-  background: #285e61;
+  background: #2c7a7b;
   color: #fff;
   font-size: 1rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.btn-outline {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  background: transparent;
+  color: #2c7a7b;
+  border-color: #cbd5e0;
+}
+
+.btn-outline:hover {
+  border-color: #319795;
+  box-shadow: none;
+  background: #319795;
+  color: #fff;
+}
+
+.btn-outline:focus {
+  border-color: #2c7a7b;
+  box-shadow: none;
+  background: #285e61;
+  color: #fff;
 }
 
 .divider {

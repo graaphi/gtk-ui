@@ -1,13 +1,20 @@
 .btn {
   @apply btn-core;
+
+  &:hover {
+    @apply bg-gray-200;
+    @apply text-black;
+  }
+
+  &:focus {
+    @apply bg-gray-400;
+    @apply text-black;
+    box-shadow: none;    
+  }
 }
 
 .btn-md {
   @apply btn-core-md;
-}
-
-.btn-rounded {
-  @apply rounded;
 }
 
 .btn-rounded-full {
@@ -16,12 +23,41 @@
 
 .btn-primary {
   @apply btn;
-  @apply bg-teal-800;
+  @apply bg-teal-700;
   @apply text-white;
   @apply text-base;
+
+  &:hover {
+    @apply bg-teal-600;
+  }
+
+  &:focus {
+    @apply bg-teal-800;
+  }
 }
 
 .btn-primary-md {
   @apply btn-primary;
   @apply btn-md;
+}
+
+.btn-outline {
+  @apply btn-core-outline;
+  @apply bg-transparent;
+  @apply text-teal-700;
+  @apply border-gray-400;
+
+  &:hover {
+    @apply border-teal-600;
+    box-shadow: none;
+    @apply bg-teal-600;
+    @apply text-white;
+  }
+
+  &:focus {
+    @apply border-teal-700;
+    box-shadow: none;
+    @apply bg-teal-800;
+    @apply text-white;
+  }
 }

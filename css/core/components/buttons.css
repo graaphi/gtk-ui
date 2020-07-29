@@ -7,6 +7,14 @@
   border: none;
 }
 
+.btn-core-outline {
+  @apply px-4;
+  @apply py-2;
+  @apply font-medium;
+  @apply text-base;
+
+}
+
 .btn-core-md {
   @apply px-5;
   @apply py-3;
