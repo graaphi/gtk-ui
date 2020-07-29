@@ -7,11 +7,9 @@
     "docs:serve": "./node_modules/.bin/gatsby develop",
     "docs:clean": "./node_modules/.bin/gatsby clean",
     "docs:build": "yarn docs:clean && STAGE=production ./node_modules/.bin/gatsby build --prefix-paths",
-    "postcss": "postcss ./sass/gtk-ui.scss --output ./dist/gtk-ui.css --watch",
-    "css:build": "sass sass/gtk-ui.scss dist/gtk-ui.css",
-    "css:watch": "sass --watch sass/gtk-ui.scss dist/gtk-ui.css",
-    "css:lint": "stylelint \"sass/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache",
-    "css:lint:fix": "stylelint \"sass/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --fix"
+    "css:watch": "postcss ./css/gtk-ui.css --output ./dist/gtk-ui.css --watch",
+    "css:lint": "stylelint \"css/**/*.css\" --cache --cache-location .cache/.stylelintcache",
+    "css:lint:fix": "stylelint \"css/**/*.css\" --cache --cache-location .cache/.stylelintcache --fix"
   },
   "dependencies": {
     "@babel/core": "^7.10.4",
@@ -38,6 +36,7 @@
     "postcss-cli": "^7.1.1",
     "postcss-easy-import": "^3.0.0",
     "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.3",
     "postcss-scss": "^2.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
