@@ -36,6 +36,7 @@
     "gatsby-plugin-eslint": "^2.0.8",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
+    "postcss-easy-import": "^3.0.0",
     "postcss-import": "^12.0.1",
     "postcss-scss": "^2.1.1",
     "react": "^16.13.1",
