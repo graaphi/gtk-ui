@@ -1,0 +1,13 @@
+.btn-core {
+  @apply px-4;
+  @apply py-2;
+  @apply font-medium;
+  @apply text-base;
+
+  border: none;
+}
+
+.btn-core-md {
+  @apply px-5;
+  @apply py-3;
+}

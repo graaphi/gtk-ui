@@ -1,0 +1,27 @@
+.btn {
+  @apply btn-core;
+}
+
+.btn-md {
+  @apply btn-core-md;
+}
+
+.btn-rounded {
+  @apply rounded;
+}
+
+.btn-rounded-full {
+  @apply rounded-full;
+}
+
+.btn-primary {
+  @apply btn;
+  @apply bg-teal-800;
+  @apply text-white;
+  @apply text-base;
+}
+
+.btn-primary-md {
+  @apply btn-primary;
+  @apply btn-md;
+}

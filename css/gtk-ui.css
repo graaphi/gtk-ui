@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/** gtk-ui core styles */
+@import "./core/components/buttons.css";
+
+/** gtk-ui components */
+@import "./components/buttons.css";
