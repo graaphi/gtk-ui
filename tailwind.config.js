@@ -12,6 +12,7 @@ module.exports = {
     appearance: false,
     backgroundAttachment: false,
     backgroundOpacity: false,
+    backgroundColor: false,
     borderCollapse: false,
     borderOpacity: false,
     boxSizing: false,
@@ -92,4 +93,7 @@ module.exports = {
     wordBreak: false,
     zIndex: false,
   },
+  plugins: [
+    require('./src/plugins/background'),
+  ],
 }
