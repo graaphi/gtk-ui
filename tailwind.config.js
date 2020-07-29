@@ -74,7 +74,6 @@ module.exports = {
     strokeWidth: false,
     tableLayout: false,
     textAlign: false,
-    textColor: false,
     textDecoration: false,
     textOpacity: false,
     textTransform: false,
