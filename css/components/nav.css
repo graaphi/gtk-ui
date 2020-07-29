@@ -1,0 +1,31 @@
+.nav-stacked {
+  @apply text-lg;
+
+  button {
+    @apply btn-core;
+    @apply bg-none;
+    @apply text-shadow-none;
+    @apply text-inherit;
+    @apply font-medium;
+    @apply rounded;
+    @apply px-4;
+    @apply py-3;
+
+    label {
+      @apply text-inherit;
+      @apply px-4;
+    }
+  }
+}
+
+.nav-stacked-dark {
+  @apply text-white;
+
+  button {
+    @apply text-white;
+
+    &:hover {
+      @apply bg-dark-opacity-20;
+    }
+  }
+}

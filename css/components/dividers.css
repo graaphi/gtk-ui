@@ -1,0 +1,9 @@
+.divider {
+  @apply py-8;
+
+  box {
+    @apply border-b;
+    @apply border-solid;
+    @apply border-dark-opacity-10;
+  }
+}

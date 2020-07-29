@@ -1,3 +1,167 @@
+/** gtk-ui base */
+
+/** Text specific styles */
+
+.text-shadow-none {
+  text-shadow: none;
+}
+
+.text-inherit {
+  font: inherit;
+}
+
+/** Background specific colors */
+
+.bg-none {
+  background: none;
+}
+
+.bg-dark-opacity-10 {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.bg-dark-opacity-20 {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/** Border specific colors */
+
+.border-dark-opacity-10 {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.border-dark-opacity-20 {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/** gtk-ui core styles */
+
+.btn-core {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+}
+
+.btn-core-md {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/** gtk-ui components */
+
+.btn {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+}
+
+.btn-md {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.btn-rounded {
+  border-radius: 0.25rem;
+}
+
+.btn-rounded-full {
+  border-radius: 9999px;
+}
+
+.btn-primary {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  background: #285e61;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.btn-primary-md {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  background: #285e61;
+  color: #fff;
+  font-size: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.divider {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.divider box {
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-stacked {
+  font-size: 1.125rem;
+}
+
+.nav-stacked button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  text-shadow: none;
+  font: inherit;
+  font-weight: 500;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.nav-stacked button label {
+  font: inherit;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-stacked-dark {
+  color: #fff;
+}
+
+.nav-stacked-dark button {
+  color: #fff;
+}
+
+.nav-stacked-dark button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
 .bg-bottom {
   background-position: bottom;
 }
@@ -4670,84 +4834,4 @@
 
 .focus\:bg-pink-900:focus {
   background: #702459;
-}
-
-/** gtk-ui core styles */
-
-.btn-core {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-weight: 500;
-  font-size: 1rem;
-  border: none;
-}
-
-.btn-core label {
-  font: inherit;
-}
-
-.btn-core-md {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-/** gtk-ui components */
-
-.btn {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-weight: 500;
-  font-size: 1rem;
-  border: none;
-}
-
-.btn-md {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.btn-rounded {
-  border-radius: 0.25rem;
-}
-
-.btn-rounded-full {
-  border-radius: 9999px;
-}
-
-.btn-primary {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-weight: 500;
-  font-size: 1rem;
-  border: none;
-  background: #285e61;
-  color: #fff;
-  font-size: 1rem;
-}
-
-.btn-primary-md {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-weight: 500;
-  font-size: 1rem;
-  border: none;
-  background: #285e61;
-  color: #fff;
-  font-size: 1rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }

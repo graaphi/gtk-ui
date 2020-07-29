@@ -1,0 +1,33 @@
+/** Text specific styles */
+
+.text-shadow-none {
+  text-shadow: none;
+}
+
+.text-inherit {
+  font: inherit;
+}
+
+/** Background specific colors */
+
+.bg-none {
+  background: none;
+}
+
+.bg-dark-opacity-10 {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.bg-dark-opacity-20 {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/** Border specific colors */
+
+.border-dark-opacity-10 {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.border-dark-opacity-20 {
+  border-color: rgba(0, 0, 0, 0.2);
+}
