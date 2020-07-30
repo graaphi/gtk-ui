@@ -32,6 +32,7 @@
     "gatsby": "^2.23.22",
     "gatsby-cli": "^2.12.59",
     "gatsby-plugin-eslint": "^2.0.8",
+    "hex-rgb": "^4.1.0",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
     "postcss-easy-import": "^3.0.0",
