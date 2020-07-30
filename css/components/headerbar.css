@@ -1,0 +1,14 @@
+.headerbar {
+  @apply bg-white;
+  @apply rounded-t-lg;
+  @apply py-3;
+  @apply px-5;
+  @apply text-shadow-none;
+  @apply shadow-none;
+  @apply text-base;
+  @apply font-normal;
+  @apply border-none;
+  @apply border-b;
+  @apply border-solid;
+  @apply border-gray-400;
+}

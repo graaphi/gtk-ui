@@ -14,6 +14,10 @@
   background: none;
 }
 
+.bg-remove {
+  @apply bg-none;
+}
+
 .bg-dark-opacity-10 {
   background: rgba(0, 0, 0, 0.1);
 }
@@ -24,10 +28,31 @@
 
 /** Border specific colors */
 
+.border-remove {
+  border: none;
+}
+
 .border-dark-opacity-10 {
   border-color: rgba(0, 0, 0, 0.2);
 }
 
 .border-dark-opacity-20 {
   border-color: rgba(0, 0, 0, 0.2);
+}
+
+.entry {
+  @apply border-none;
+  @apply px-4;
+  @apply py-4;
+}
+
+.entry-transparent {
+  @apply entry;
+  @apply border-remove;
+  @apply bg-none;
+  @apply rounded-none;
+}
+
+.accounts {
+  @apply px-4;
 }

@@ -25,7 +25,7 @@
     @apply text-white;
 
     &:hover {
-      @apply bg-dark-opacity-20;
+      @apply bg-dark-opacity-10;
     }
   }
 }
