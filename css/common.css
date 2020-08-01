@@ -4,6 +4,10 @@
   text-shadow: none;
 }
 
+.text-shadow-remove {
+  @apply text-shadow-none;
+}
+
 .text-inherit {
   font: inherit;
 }

@@ -1,0 +1,23 @@
+.dropdown {
+  @apply bg-white;
+  @apply shadow-lg;
+  @apply rounded-md;
+  @apply border-remove;
+  @apply py-4;
+
+  menuitem {
+    @apply text-base;
+    @apply px-4;
+    @apply py-2;
+    @apply border-remove;
+    @apply text-gray-600;
+
+    &:hover {
+      @apply bg-gray-100;
+      @apply border-remove;
+      @apply shadow-none;
+      @apply text-gray-800;
+      @apply text-shadow-remove;
+    }
+  }
+}

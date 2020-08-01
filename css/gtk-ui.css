@@ -11,8 +11,8 @@
 /** gtk-ui components */
 @import "./components/buttons.css";
 @import "./components/dividers.css";
+@import "./components/dropdown.css";
 @import "./components/headerbar.css";
 @import "./components/nav.css";
-@import "./components/typography.css";
 
 @import "tailwindcss/utilities";
